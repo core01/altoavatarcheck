@@ -6,6 +6,7 @@
 - `UPDATE LS_user SET user_profile_avatar = REPLACE(user_profile_avatar, 'http://site.ru', '')`
 - Замените `LS_` на Ваш префикс, а также имя и протокол для вашего сайта, в дальнейшем можно будет выполнить обратный запрос
 - Если у Вас большое количество пользователей установите соответсвующее значение `max_execution_time` или `set_time_limit` в php.ini
+
 ### Выполнение скрипта
 - Положить папку скрипта в каталог сайта с ALTO CMS
 - Запустить скрипт по адресу http://site.ru/altoavatarcheck/avatarfix.php
