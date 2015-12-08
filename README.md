@@ -11,6 +11,7 @@
 - Положить папку скрипта в каталог сайта с ALTO CMS
 - Запустить скрипт по адресу http://site.ru/altoavatarcheck/avatarfix.php
 - Ждать результатов выполнения скрипта
+- Выполить запрос, который вернет имя вашего домена в путь аватарок `UPDATE LS_user SET user_profile_avatar = REPLACE(user_profile_avatar, '/uploads', 'http://site.ru/uploads')` [Пояснение](http://altocms.ru/1471.html#comment25086)
 
 В моём случае было 2573 пользователя с аватарками, у 782 не существовали файлы аватарок.
 
